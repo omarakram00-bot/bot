@@ -1,0 +1,271 @@
+.container {
+    width: 300px;
+    background: #c8c8c8;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background: #eef2f5;
+    border-radius: 20px;
+}
+textarea {
+    height: 80px;
+    border-radius: 10px;
+}
+button {
+    width: 90%;
+    padding: 10px;
+    background: #1aa3b0;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover {
+    background: #148a94;
+}
+
+.bar-home {
+    background-color: #0d0e0e;
+    padding: 10px;
+    text-align: center;
+}
+
+.bar-home a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.bar-home a:hover {
+    color: #1abc9c;
+}
+
+.left {
+    position: absolute;
+    top: 170px;
+    left: 50px;
+    width: 35%;
+    color: rgb(12 28 30);
+}
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    right: 500px;
+    transform: translateY(-50%);
+
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact {
+    margin: 0;
+    font-family: Arial;
+    background-image: url("abstract-elegant-geometric-shape-background-design_1017-50120\(1\).jpg");
+    background-size:cover;
+    background-position: center;
+}
+
+.add {
+    margin: 0;
+    font-family: Arial;
+    background-image: url("abstract-elegant-geometric-shape-background-design_1017-50120\(1\).jpg");
+    background-size:cover;
+    background-position: center;
+}
+
+.courses {
+    font-family: Arial;
+    background-color: #f5f5f5;
+}
+
+.title {
+    text-align: center;
+    margin: 30px;
+}
+
+.title span {
+    border: 2px solid #ccc;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #eee;
+}
+
+th {
+    background: linear-gradient(to right, #8b3a3a, #a05252);
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.courses {
+    margin: 0;
+    font-family: Arial;
+    background-image: url("abstract-elegant-geometric-shape-background-design_1017-50120\(1\).jpg");
+    background-size:cover;
+    background-position: center;
+}
+
+.bar-courses {
+    background-color: #8d2c2c;
+    padding: 10px;
+    text-align: center;
+}
+
+.bar-courses a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.bar-courses a:hover {
+    color: #1abc9c;
+}
+
+.bar-add {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.bar-add a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.bar-add a:hover {
+    color: #1abc9c;
+}
+.text {
+    max-width: 50%;
+}
+
+.text h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.text p {
+    font-size: 20px;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f7f86;
+    padding: 200px 50px;
+    color: #cfe6e6;
+}
+body {
+    margin: 0;
+    font-family: Arial;
+    background-image: url("abstract-elegant-geometric-shape-background-design_1017-50120\(1\).jpg");
+    background-size:cover;
+    background-position: center;
+}
+
+/* header */
+header {
+    background: #8b8e90;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* main */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+/* login box */
+.login-box {
+    position: static;
+    margin-top: 200px;
+    background: #e2e2e2;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+}
+
+.login-box h1 {
+    margin-bottom: 20px;
+}
+
+.login-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #3ec6a0;
+}
+
+.login-box button {
+    width: 95%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    background: #3ec6a0;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background: #2fa987;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    background: #8b8e90;
+    color: white;
+    padding: 10px;
+}
+.W {
+    display: flex;
+    justify-content: center;   /* يوسّط أفقياً */
+    align-items: center;       /* يوسّط رأسياً */
+    min-height: 80vh;  
+    margin-top: 70px;        /* يخليه ياخد مساحة الشاشة */
+}
+fieldset {
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background: #f9f9f9;
+}
